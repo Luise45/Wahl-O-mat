@@ -1,60 +1,37 @@
-# HTWahl-O-Mat
+# Wahl-O-Mat (Full-Stack) — Backend
 
-> **Anforderung:** <br>
-> Eine README sollte erklären, wie man das Projekt zum Laufen bekommt und was für die (Weiter-) Entwicklung technisch relevant ist. Sie ist nicht dafür da, die Feinheiten der Logik Ihrer Anwendung zu beschreiben oder zu motivieren.
+**Status**: In Development 
 
-<br>
+**Info**: This was developed in a team. I am not the lone author!
 
-### Inhaltsverzeichnis
-1. [Beschreibung](#beschreibung)
-2. [Key Features](#features)
-3. [Technologien](#technologien) <br>
-    1. [Projekt](#projekt) <br>
-    2. [KI-Nutzung](#ki-nutzung) <br>
-    3. [Zusätzlich verwendete Software](#zusätzlich-verwendete-software)
-4. [Anleitung zur Installation](#anleitung-zur-installation) <br>
-    1. [Vorraussetzungen](#vorraussetzungen) <br>
-    2. [Vorgehen](#vorgehen) <br>
-5. [Team & Rollen](#team--rollen)
+This repository contains the backend of the Wahl-O-Mat (Full-Stack) project. 
+This is being developed for university intern elections. Last year **only 5%** of students voted in the elections. With this we hope to simplify the voting process and therefore encourage a higher number of people to give in their vote.
 
-<br>
+The voter and candidates can both give **ratings to questions.** Based on those numbers the fitting top candidates per party are given to the voters. 
+
+The application also provides secure authentication, reset password, candidate profiles, and result calculations.
+
 
 ---
-## Beschreibung 
-
-<br>
-
----
-## Key Features
-
-<br>
+## Features
+- User **registration and login** (voters & candidates)
+- Secure **authentication and authorization (JWT token)**
+- Voting process with validation
+- Automatic vote counting and result calculation
+- **RESTful API** for frontend integration
+- API documentation with **Swagger**
+- Code documentation with **Javadoc**
+- Unit tests with **JUnit**
 
 ---
 
-## Technologien
-#### Projekt
-- **Frontend**: 
-- **Backend**: 
-- **Datenbank**: 
-#### KI-Nutzung
-- ?
+## Tech Stack
 
-<br>
+- **Language**: Java
+- **Framework**: Spring Boot
+- **Database**: PostgreSQL
+- **ORM**: Spring Data JPA / Hibernate
+- **API Documentation**: Swagger (OpenAPI)
+- **Documentation**: Javadoc
+- **Build Tool**: Maven
 
----
-
-## Anleitung zur Installation
-
-### Vorraussetzungen
-- ?
-
-### Vorgehen 
-1. ?
-
-<br>
-
----
-
-## Team & Rollen
-
-<br>
